@@ -2,25 +2,97 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
-// Custom Styles
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-}
-
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
+.hero-unit{
+  height: 660px;
+  margin-top:-10px;
+  background: 
+  linear-gradient(
+  HSLA(189, 20%, 62%, 0.6), 
+  HSLA(189, 20%, 62%, 0.6)
+  ),
+  url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/HKYFE2YJYVjBC0F/B0UmW_oCMAAr-BH.jpg');
+  width: 100%;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
   background-color: #eee;
   border-radius: 6px;
   padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+  background-attachment: fixed;
+  background-position: center;
+
 }
+
+h1{
+  font-size: 5.5em;
+  line-height: 10%;
+}
+
+h3{
+font-size: 2em;
+margin-top: -34px;
+
+}
+
+
+.topmenu{
+  height: 200px;
+  width: 100%;
+  background-color: HSLA(0, 0%, 65%, .6);
+  margin-top: -160px;
+
+  }
+ .hover{
+    margin-top:-20px;
+    margin-bottom: 0px;
+}
+
+
+li{
+    display: inline;
+
+  }
+
+  ul{
+    padding-top: 150px;
+  }
+
+
+
+  .aboutme{
+    width: 100%;
+    height: 670px;
+    background-color: HSLA(0, 0%, 23%, .6);
+    background-attachment: fixed;
+  }
+
+  .portfolio{
+    height: 630px;
+    width: 100%;
+    background: linear-gradient(
+  HSLA(57, 65%, 53%, .5), 
+  HSLA(57, 65%, 53%, .5)
+  ),
+  url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/fGSORvz6lmlUpDb/10275530_10204456235595428_3667510480061076685_o%202.jpg');
+  background-attachment: fixed;
+  background-image: 100%;
+  }
+
+.cv{
+  height:630px;
+  width: 100%;
+  background-color: HSLA(0, 0%, 23%, .3);
+}
+
+.contactme{
+  height:630px;
+  width: 100%;
+  background: linear-gradient(
+  HSLA(189, 20%, 62%, .4), 
+ HSLA(189, 20%, 62%, .4)
+  ),
+  url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/QPivsbZoqvT90Ff/8549396860_9d7e2ba053_o.jpg');
+  background-attachment: fixed;
+  background-image: 100%;
+}
+  
