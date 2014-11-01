@@ -3,7 +3,7 @@
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 .hero-unit{
-  height: 660px;
+  height: 640px;
   margin-top:-10px;
   background: 
   linear-gradient(
@@ -24,49 +24,54 @@
 }
 
 h1{
-  font-size: 5.5em;
+  font-size: 8.5em;
   line-height: 10%;
+  color: white;
 }
 
 h3{
 font-size: 2em;
 margin-top: -34px;
-
+color: white;
 }
 
 
 .topmenu{
-  height: 200px;
-  width: 100%;
+  height: 65px;
+  width: 330px;
   background-color: HSLA(0, 0%, 65%, .6);
-  margin-top: -160px;
-
+  position: absolute;
+  right: -279px;
   }
+
  .hover{
     margin-top:-20px;
     margin-bottom: 0px;
 }
-
+a{
+  text-decoration: none;
+  color: white;
+}
 
 li{
     display: inline;
-
+    color: white;
   }
 
   ul{
-    padding-top: 150px;
+    padding-top: 5px;
   }
-
-
 
   .aboutme{
     width: 100%;
     height: 670px;
     background-color: HSLA(0, 0%, 23%, .6);
     background-attachment: fixed;
+    border-top: 1px solid white;
   }
 
   .portfolio{
+    border-top: 1px solid white;
     height: 630px;
     width: 100%;
     background: linear-gradient(
@@ -79,12 +84,14 @@ li{
   }
 
 .cv{
+  border-top: 1px solid white;
   height:630px;
   width: 100%;
   background-color: HSLA(0, 0%, 23%, .3);
 }
 
 .contactme{
+  border-top: 1px solid white;
   height:630px;
   width: 100%;
   background: linear-gradient(
@@ -94,5 +101,15 @@ li{
   url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/QPivsbZoqvT90Ff/8549396860_9d7e2ba053_o.jpg');
   background-attachment: fixed;
   background-image: 100%;
+}
+
+
+.circle{
+  border: 1px solid white;
+border-radius: 100%;
+height: 70px;
+width: 70px;
+display: block;
+margin: -35px auto;
 }
   
