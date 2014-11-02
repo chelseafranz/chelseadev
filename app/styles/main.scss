@@ -2,6 +2,9 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
+
+$font1:'Oswald';
+$font2:'Poiret One';
 .hero-unit{
   height: 645px;
   margin-top:-10px;
@@ -26,12 +29,14 @@ h1{
   font-size: 8.5em;
   line-height: 10%;
   color: white;
+  font-family: $font1;
 }
 
 h3{
 font-size: 2em;
 margin-top: -34px;
 color: white;
+font-family: $font1;
 }
 
 
@@ -165,8 +170,8 @@ height: 145px;
 }
 
 #portfolio{
-  height: 400px;
-  width: 816px;
+  height: 65%;
+  width: 81%;
   border: 1px solid white;
   margin: 75px auto;
   background: linear-gradient(
