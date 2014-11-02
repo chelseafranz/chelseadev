@@ -10,7 +10,6 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
-    <link rel="stylesheet" href="https://rawgithub.com/daneden/animate.css/master/animate.min.css"/>
     <!-- endbower -->
     <!-- endbower -->
     <!-- endbuild -->
@@ -27,12 +26,10 @@
 <a name="top"></a>
     <div class="topmenu">
         <ul>
-
-
-            <a href="#portfolio"><li>Portfolio</li></a>
-            <a href="#aboutme"><li>about me</li></a>
-            <a href="#cv"><li>CV</li></a>
-            <a href="#contactme"><li>Contact Me</li></a>
+            <a href="#portfolio"><li class="list">Portfolio</li></a>
+            <a href="#aboutme"><li class="list">about me</li></a>
+            <a href="#cv"><li class="list">CV</li></a>
+            <a href="#contactme"><li class="list">Contact Me</li></a>
         </ul>
     </div>
 
@@ -42,22 +39,49 @@
         <h3> & i make things for the web.</h3>
     </div>
 
+    <div class="divide">
+    </div>
+
 
     <div class="aboutme">
         <a name="aboutme"></a>
         <div class="circle"></div>
         <span class="about">
             <a href="#top">top</a>
-            web developer|coffee lover
+            web developer | coffee lover
         </span> 
-        <div class="picture"></div>
+        <div class="pictures">
+          <!--   <img class = "pic a" src='http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg'/>
+            <img class = "pic b" src='http://placekitten.com.s3.amazonaws.com/homepage-samples/200/140.jpg'/>
+            <img class = "pic c" src='http://placekitten.com.s3.amazonaws.com/homepage-samples/200/139.jpg'/> -->
+        </div>
+        <div class="aboutmebox">
+            <h2 class="name">I'm Chelsea.</h2>
+            <p>A front-end web developer.</p>
+            <p>I like to create things for the internet.</p>
+        </div>
     </div>
+    
+    <div class="divide">
+    </div>
+
 
     <div class="portfolio">
         <a name="portfolio"></a>
         <div class="circle"></div>
         <span>portfolio</span>
         <a href="#top">top</a>
+        <form id="form">
+        
+          <input type="text" id="itemName" />
+          <button>Add Item to Portfolio</button>
+      </form>
+<div id="portfolio">
+</div>
+
+    </div>
+    
+    <div class="divide">
     </div>
 
     <div class="cv">
@@ -65,6 +89,9 @@
         <div class="circle"></div>
         <span class="resume">resume</span>
         <a href="#top">top</a>
+    </div>
+
+    <div class="divide">
     </div>
 
     <div class="contactme">
@@ -78,10 +105,13 @@
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/backbone/backbone.js"></script>
+    <script src="../bower_components/handlebars/handlebars.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
+        <script src="scripts/templates.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>

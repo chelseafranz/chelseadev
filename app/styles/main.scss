@@ -3,7 +3,7 @@
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 .hero-unit{
-  height: 640px;
+  height: 645px;
   margin-top:-10px;
   background: 
   linear-gradient(
@@ -15,8 +15,7 @@
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
+  
   padding: 60px;
   background-attachment: fixed;
   background-position: center;
@@ -64,39 +63,50 @@ li{
 
   .aboutme{
     width: 100%;
-    height: 670px;
+    height: 640px;
     background-color: HSLA(0, 0%, 23%, .6);
     background-attachment: fixed;
     border-top: 1px solid white;
+    background: 
+  linear-gradient(
+  HSLA(189, 20%, 62%, 0), 
+  HSLA(189, 20%, 62%, 0)
+  ),
+  url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/Z2dxDrVNP2wRdNu/Screen%20Shot%202014-11-02%20at%201.42.11%20PM.png');
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-size: 80%;
+  background-repeat: none;
+
   }
 
   .portfolio{
     border-top: 1px solid white;
-    height: 630px;
+    height: 640px;
     width: 100%;
     background: linear-gradient(
-  HSLA(57, 65%, 53%, .5), 
-  HSLA(57, 65%, 53%, .5)
-  ),
-  url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/fGSORvz6lmlUpDb/10275530_10204456235595428_3667510480061076685_o%202.jpg');
-  background-attachment: fixed;
-  background-image: 100%;
+    HSLA(57, 65%, 53%, .5), 
+    HSLA(57, 65%, 53%, .5)
+    ),
+    url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/fGSORvz6lmlUpDb/10275530_10204456235595428_3667510480061076685_o%202.jpg');
+    background-attachment: fixed;
+    background-image: 100%;
   }
 
 .cv{
   border-top: 1px solid white;
-  height:630px;
+  height:640px;
   width: 100%;
   background-color: HSLA(0, 0%, 23%, .3);
 }
 
 .contactme{
   border-top: 1px solid white;
-  height:630px;
+  height:640px;
   width: 100%;
   background: linear-gradient(
   HSLA(189, 20%, 62%, .4), 
- HSLA(189, 20%, 62%, .4)
+  HSLA(189, 20%, 62%, .4)
   ),
   url('https://s3.amazonaws.com/uploads.hipchat.com/31349/1240363/QPivsbZoqvT90Ff/8549396860_9d7e2ba053_o.jpg');
   background-attachment: fixed;
@@ -106,10 +116,80 @@ li{
 
 .circle{
   border: 1px solid white;
-border-radius: 100%;
-height: 70px;
-width: 70px;
-display: block;
-margin: -35px auto;
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  display: block;
+  margin: -35px auto;
 }
-  
+
+
+.pictures{
+  float: right;
+  width: 400px;
+  margin-right: 77px;
+  margin-top: 50px;
+}
+.a{
+  float: left;
+  width: 200px;
+  height: 290px;
+}
+.b{
+  float: right;
+width: 200px;
+height: 145px;
+}
+.c{
+  display: inline;
+  float: right;
+  height: 145px;
+  width: 200px;
+}
+.d{
+  width: 400px;
+  height: 216px;
+
+}
+.aboutmebox{
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 75px;
+  margin-top: 100px;
+  border: 1px solid white;
+}
+
+.name{
+  margin-bottom: -18px;
+}
+
+#portfolio{
+  height: 400px;
+  width: 816px;
+  border: 1px solid white;
+  margin: 75px auto;
+  background: linear-gradient(
+  HSLA(0, 0%, 23%, .8), 
+  HSLA(0, 0%, 23%, .8)
+  );
+  overflow: scroll;
+
+}
+.projectName{
+  list-style-type: none;
+  color: white;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.allProjects{
+  margin: 0 auto;
+  width: 700px;
+}
+
