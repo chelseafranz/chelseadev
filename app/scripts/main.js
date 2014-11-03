@@ -1,11 +1,11 @@
-$('.topmenu').on('click', function () {
-	$('.topmenu').animate({right: '0px' }, 1000, 'linear');
-	$('.topmenu').addClass('see');
-});
-
-// $('.hero-unit').hover( function () {
-// 	$('.topmenu').animate({marginRight: '-160px' }, 1000, 'linear');
+// $('.topmenu').on('click', function () {
+// 	$('.topmenu').animate({right: '0px' }, 1000, 'linear');
+// 	$('.topmenu').addClass('see');
 // });
+
+$('.topmenu').on('click', function () {
+	$('.topmenu').toggleClass('see');
+});
 
 var Portfolio= Backbone.Model.extend({
 	defaults:{
